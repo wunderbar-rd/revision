@@ -1,0 +1,6 @@
+[submodule "custom_nodes/ComfyUI-Manager"]
+	path = custom_nodes/ComfyUI-Manager
+	url = git@github.com:ltdrdata/ComfyUI-Manager.git
+[submodule "custom_nodes/ComfyUI-SaveAsScript"]
+	path = custom_nodes/ComfyUI-SaveAsScript
+	url = git@github.com:atmaranto/ComfyUI-SaveAsScript
