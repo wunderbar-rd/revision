@@ -1,13 +1,17 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+aiohttp
+comfy-script[default]
+einops
+kornia>=0.7.1
+Pillow
+psutil
+pyyaml
+safetensors>=0.3.0
+scipy
 torch
+torchaudio
 torchsde
 torchvision
-einops
-transformers>=4.25.1
-safetensors>=0.3.0
-aiohttp
-pyyaml
-Pillow
-scipy
 tqdm
-psutil
-kornia>=0.7.1
+transformers>=4.25.1
+wheel
