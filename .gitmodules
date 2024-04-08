@@ -4,3 +4,18 @@
 [submodule "custom_nodes/ComfyUI-SaveAsScript"]
 	path = custom_nodes/ComfyUI-SaveAsScript
 	url = git@github.com:atmaranto/ComfyUI-SaveAsScript
+[submodule "custom_nodes/ComfyUI_IPAdapter_plus"]
+	path = custom_nodes/ComfyUI_IPAdapter_plus
+	url = https://github.com/cubiq/ComfyUI_IPAdapter_plus
+[submodule "custom_nodes/ComfyUI-WD14-Tagger"]
+	path = custom_nodes/ComfyUI-WD14-Tagger
+	url = https://github.com/pythongosssss/ComfyUI-WD14-Tagger
+[submodule "custom_nodes/comfyui_segment_anything"]
+	path = custom_nodes/comfyui_segment_anything
+	url = https://github.com/storyicon/comfyui_segment_anything
+[submodule "custom_nodes/ComfyUI-Custom-Scripts"]
+	path = custom_nodes/ComfyUI-Custom-Scripts
+	url = https://github.com/pythongosssss/ComfyUI-Custom-Scripts
+[submodule "custom_nodes/ComfyUI-Impact-Pack"]
+	path = custom_nodes/ComfyUI-Impact-Pack
+	url = https://github.com/ltdrdata/ComfyUI-Impact-Pack
