@@ -25,3 +25,24 @@
 [submodule "custom_nodes/ComfyUI_essentials"]
 	path = custom_nodes/ComfyUI_essentials
 	url = https://github.com/cubiq/ComfyUI_essentials
+[submodule "custom_nodes/comfyui_controlnet_aux"]
+	path = custom_nodes/comfyui_controlnet_aux
+	url = https://github.com/Fannovel16/comfyui_controlnet_aux
+[submodule "custom_nodes/efficiency-nodes-comfyui"]
+	path = custom_nodes/efficiency-nodes-comfyui
+	url = https://github.com/jags111/efficiency-nodes-comfyui
+[submodule "custom_nodes/comfy_mtb"]
+	path = custom_nodes/comfy_mtb
+	url = https://github.com/melMass/comfy_mtb
+[submodule "custom_nodes/wlsh_nodes"]
+	path = custom_nodes/wlsh_nodes
+	url = https://github.com/wallish77/wlsh_nodes
+[submodule "custom_nodes/Comfy_KepListStuff"]
+	path = custom_nodes/Comfy_KepListStuff
+	url = https://github.com/M1kep/Comfy_KepListStuff
+[submodule "custom_nodes/rgthree-comfy"]
+	path = custom_nodes/rgthree-comfy
+	url = https://github.com/rgthree/rgthree-comfy
+[submodule "custom_nodes/ComfyUI-Inference-Core-Nodes"]
+	path = custom_nodes/ComfyUI-Inference-Core-Nodes
+	url = https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes
