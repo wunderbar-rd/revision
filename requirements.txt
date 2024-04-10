@@ -1,13 +1,17 @@
 --extra-index-url https://download.pytorch.org/whl/cu121
+--extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
+addict
 aiohttp
 comfy-script[default]
 einops
 kornia>=0.7.1
+onnxruntime-gpu 
 Pillow
 psutil
 pyyaml
 safetensors>=0.3.0
 scipy
+timm
 torch
 torchaudio
 torchsde
@@ -15,3 +19,4 @@ torchvision
 tqdm
 transformers>=4.25.1
 wheel
+yapf
