@@ -5,6 +5,7 @@ aiohttp
 comfy-script[default]
 einops
 kornia>=0.7.1
+numba
 onnxruntime-gpu 
 Pillow
 psutil
