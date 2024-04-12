@@ -46,3 +46,15 @@
 [submodule "custom_nodes/ComfyUI-Inference-Core-Nodes"]
 	path = custom_nodes/ComfyUI-Inference-Core-Nodes
 	url = https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes
+[submodule "custom_nodes/cg-quicknodes"]
+	path = custom_nodes/cg-quicknodes
+	url = https://github.com/chrisgoringe/cg-quicknodes
+[submodule "custom_nodes/ComfyUI-Inspire-Pack"]
+	path = custom_nodes/ComfyUI-Inspire-Pack
+	url = https://github.com/ltdrdata/ComfyUI-Inspire-Pack
+[submodule "custom_nodes/masquerade-nodes-comfyui"]
+	path = custom_nodes/masquerade-nodes-comfyui
+	url = https://github.com/BadCafeCode/masquerade-nodes-comfyui
+[submodule "custom_nodes/ComfyUI_tinyterraNodes"]
+	path = custom_nodes/ComfyUI_tinyterraNodes
+	url = https://github.com/tinyterra/ComfyUI_tinyterraNodes
