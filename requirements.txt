@@ -4,6 +4,7 @@ addict
 aiohttp
 comfy-script[default]
 einops
+insightface
 kornia>=0.7.1
 numba
 onnxruntime-gpu 
