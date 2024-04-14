@@ -58,3 +58,6 @@
 [submodule "custom_nodes/ComfyUI_tinyterraNodes"]
 	path = custom_nodes/ComfyUI_tinyterraNodes
 	url = https://github.com/tinyterra/ComfyUI_tinyterraNodes
+[submodule "custom_nodes/ComfyUI_Ib_CustomNodes"]
+	path = custom_nodes/ComfyUI_Ib_CustomNodes
+	url = https://github.com/Chaoses-Ib/ComfyUI_Ib_CustomNodes
