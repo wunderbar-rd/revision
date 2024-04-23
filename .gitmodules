@@ -54,10 +54,19 @@
 	url = https://github.com/ltdrdata/ComfyUI-Inspire-Pack
 [submodule "custom_nodes/masquerade-nodes-comfyui"]
 	path = custom_nodes/masquerade-nodes-comfyui
-	url = https://github.com/BadCafeCode/masquerade-nodes-comfyui
+	url = https://github.com/BadCafeCode/masquerade-nodes-comfyui.git
 [submodule "custom_nodes/ComfyUI_tinyterraNodes"]
 	path = custom_nodes/ComfyUI_tinyterraNodes
 	url = https://github.com/tinyterra/ComfyUI_tinyterraNodes
 [submodule "custom_nodes/ComfyUI_Ib_CustomNodes"]
 	path = custom_nodes/ComfyUI_Ib_CustomNodes
 	url = https://github.com/Chaoses-Ib/ComfyUI_Ib_CustomNodes
+[submodule "custom_nodes/ComfyUI_UltimateSDUpscale"]
+	path = custom_nodes/ComfyUI_UltimateSDUpscale
+	url = https://github.com/ssitu/ComfyUI_UltimateSDUpscale
+[submodule "custom_nodes/comfyui-tooling-nodes"]
+	path = custom_nodes/comfyui-tooling-nodes
+	url = https://github.com/Acly/comfyui-tooling-nodes
+[submodule "custom_nodes/comfyui-inpaint-nodes"]
+	path = custom_nodes/comfyui-inpaint-nodes
+	url = https://github.com/Acly/comfyui-inpaint-nodes
