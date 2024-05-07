@@ -70,3 +70,12 @@
 [submodule "custom_nodes/comfyui-inpaint-nodes"]
 	path = custom_nodes/comfyui-inpaint-nodes
 	url = https://github.com/Acly/comfyui-inpaint-nodes
+[submodule "custom_nodes/ComfyUI_MaraScott_Nodes"]
+	path = custom_nodes/ComfyUI_MaraScott_Nodes
+	url = https://github.com/davask/ComfyUI_MaraScott_Nodes
+[submodule "custom_nodes/ComfyUI-Chibi-Nodes"]
+	path = custom_nodes/ComfyUI-Chibi-Nodes
+	url = https://github.com/chibiace/ComfyUI-Chibi-Nodes/
+[submodule "custom_nodes/ComfyUI-AutomaticCFG"]
+	path = custom_nodes/ComfyUI-AutomaticCFG
+	url = https://github.com/Extraltodeus/ComfyUI-AutomaticCFG
