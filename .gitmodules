@@ -79,3 +79,9 @@
 [submodule "custom_nodes/ComfyUI-AutomaticCFG"]
 	path = custom_nodes/ComfyUI-AutomaticCFG
 	url = https://github.com/Extraltodeus/ComfyUI-AutomaticCFG
+[submodule "custom_nodes/ComfyUi_NNLatentUpscale"]
+	path = custom_nodes/ComfyUi_NNLatentUpscale
+	url = https://github.com/Ttl/ComfyUi_NNLatentUpscale
+[submodule "custom_nodes/Visage_Pack"]
+	path = custom_nodes/Visage_Pack
+	url = git@github.com:wunderbar-rd/Visage_Pack.git
