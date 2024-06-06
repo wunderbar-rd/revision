@@ -2,3 +2,5 @@ ipykernel
 ipython
 ipywidgets
 pip-tools==7.4.0
+setuptools
+

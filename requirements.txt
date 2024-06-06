@@ -2,18 +2,26 @@
 --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
 addict
 aiohttp
+blend_modes
 click
+colorama
 comfy-script[default]
+deepdiff
 einops
+facexlib
+ftfy
 insightface
 kornia>=0.7.1
 numba
 onnxruntime-gpu 
+onnxruntime
 Pillow
 psutil
 pyyaml
+pynvml
 safetensors>=0.3.0
 scipy
+simpleeval
 timm
 torch
 torchaudio
@@ -23,3 +31,5 @@ tqdm
 transformers>=4.25.1
 wheel
 yapf
+spandrel
+xformers
