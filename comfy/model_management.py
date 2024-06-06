@@ -2,7 +2,6 @@ import psutil
 import logging
 from enum import Enum
 from comfy.cli_args import args
-import comfy.utils
 import torch
 import sys
 import platform
@@ -630,8 +629,18 @@ def supports_dtype(device, dtype): #TODO
 def device_supports_non_blocking(device):
     if is_device_mps(device):
         return False #pytorch bug? mps doesn't support non blocking
+    if args.deterministic: #TODO: figure out why deterministic breaks non blocking from gpu to cpu (previews)
+        return False
+    if directml_enabled:
+        return False
+    return True
+
+def device_should_use_non_blocking(device):
+    if not device_supports_non_blocking(device):
+        return False
     return False
-    # return True #TODO: figure out why this causes issues
+    # return True #TODO: figure out why this causes memory issues on Nvidia and possibly others
+
 
 def cast_to_device(tensor, device, dtype, copy=False):
     device_supports_cast = False
@@ -643,7 +652,7 @@ def cast_to_device(tensor, device, dtype, copy=False):
         elif is_intel_xpu():
             device_supports_cast = True
 
-    non_blocking = device_supports_non_blocking(device)
+    non_blocking = device_should_use_non_blocking(device)
 
     if device_supports_cast:
         if copy:
@@ -683,6 +692,8 @@ def pytorch_attention_flash_attention():
     if ENABLE_PYTORCH_ATTENTION:
         #TODO: more reliable way of checking for flash attention?
         if is_nvidia(): #pytorch flash attention only works on Nvidia
+            return True
+        if is_intel_xpu():
             return True
     return False
 
@@ -870,6 +881,7 @@ def unload_all_models():
 
 
 def resolve_lowvram_weight(weight, model, key): #TODO: remove
+    print("WARNING: The comfy.model_management.resolve_lowvram_weight function will be removed soon, please stop using it.")
     return weight
 
 #TODO: might be cleaner to put this somewhere else

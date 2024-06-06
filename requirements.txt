@@ -13,12 +13,12 @@ ftfy
 insightface
 kornia>=0.7.1
 numba
-onnxruntime-gpu 
 onnxruntime
+onnxruntime-gpu 
 Pillow
 psutil
-pyyaml
 pynvml
+pyyaml
 safetensors>=0.3.0
 scipy
 simpleeval
@@ -28,8 +28,11 @@ torchaudio
 torchsde
 torchvision
 tqdm
+
+#non essential dependencies:
+kornia>=0.7.1
+spandrel
 transformers>=4.25.1
 wheel
-yapf
-spandrel
 xformers
+yapf
