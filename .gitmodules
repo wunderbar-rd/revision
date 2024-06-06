@@ -94,3 +94,12 @@
 [submodule "custom_nodes/Visage_Pack"]
 	path = custom_nodes/Visage_Pack
 	url = git@github.com:wunderbar-rd/Visage_Pack.git
+[submodule "custom_nodes/ComfyUI-MeshMesh"]
+	path = custom_nodes/ComfyUI-MeshMesh
+	url = https://github.com/meshmesh-io/ComfyUI-MeshMesh
+[submodule "custom_nodes/was-node-suite-comfyui"]
+	path = custom_nodes/was-node-suite-comfyui
+	url = https://github.com/WASasquatch/was-node-suite-comfyui
+[submodule "custom_nodes/ComfyUI-Crystools"]
+	path = custom_nodes/ComfyUI-Crystools
+	url = https://github.com/crystian/ComfyUI-Crystools
