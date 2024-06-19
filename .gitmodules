@@ -1,105 +1,141 @@
 [submodule "custom_nodes/ComfyUI-Manager"]
 	path = custom_nodes/ComfyUI-Manager
-	url = git@github.com:ltdrdata/ComfyUI-Manager.git
+	url = https://github.com/ltdrdata/ComfyUI-Manager
+	branch = main
 [submodule "custom_nodes/ComfyUI-SaveAsScript"]
 	path = custom_nodes/ComfyUI-SaveAsScript
-	url = git@github.com:atmaranto/ComfyUI-SaveAsScript
+	url = https://github.com/atmaranto/ComfyUI-SaveAsScript
+	branch = main
 [submodule "custom_nodes/ComfyUI_IPAdapter_plus"]
 	path = custom_nodes/ComfyUI_IPAdapter_plus
 	url = https://github.com/cubiq/ComfyUI_IPAdapter_plus
+	branch = main
 [submodule "custom_nodes/ComfyUI-WD14-Tagger"]
 	path = custom_nodes/ComfyUI-WD14-Tagger
 	url = https://github.com/pythongosssss/ComfyUI-WD14-Tagger
+	branch = main
 [submodule "custom_nodes/comfyui_segment_anything"]
 	path = custom_nodes/comfyui_segment_anything
 	url = https://github.com/storyicon/comfyui_segment_anything
+	branch = main
 [submodule "custom_nodes/ComfyUI-Custom-Scripts"]
 	path = custom_nodes/ComfyUI-Custom-Scripts
 	url = https://github.com/pythongosssss/ComfyUI-Custom-Scripts
+	branch = main
 [submodule "custom_nodes/ComfyUI-Impact-Pack"]
 	path = custom_nodes/ComfyUI-Impact-Pack
 	url = https://github.com/ltdrdata/ComfyUI-Impact-Pack
+	branch = Main
 [submodule "custom_nodes/comfyui-various"]
 	path = custom_nodes/comfyui-various
 	url = https://github.com/jamesWalker55/comfyui-various
+	branch = main
 [submodule "custom_nodes/ComfyUI_essentials"]
 	path = custom_nodes/ComfyUI_essentials
 	url = https://github.com/cubiq/ComfyUI_essentials
+	branch = main
 [submodule "custom_nodes/comfyui_controlnet_aux"]
 	path = custom_nodes/comfyui_controlnet_aux
 	url = https://github.com/Fannovel16/comfyui_controlnet_aux
+	branch = main
 [submodule "custom_nodes/efficiency-nodes-comfyui"]
 	path = custom_nodes/efficiency-nodes-comfyui
 	url = https://github.com/jags111/efficiency-nodes-comfyui
+	branch = main
 [submodule "custom_nodes/comfy_mtb"]
 	path = custom_nodes/comfy_mtb
 	url = https://github.com/melMass/comfy_mtb
+	branch = main
 [submodule "custom_nodes/wlsh_nodes"]
 	path = custom_nodes/wlsh_nodes
 	url = https://github.com/wallish77/wlsh_nodes
+	branch = main
 [submodule "custom_nodes/Comfy_KepListStuff"]
 	path = custom_nodes/Comfy_KepListStuff
 	url = https://github.com/M1kep/Comfy_KepListStuff
+	branch = main
 [submodule "custom_nodes/rgthree-comfy"]
 	path = custom_nodes/rgthree-comfy
 	url = https://github.com/rgthree/rgthree-comfy
+	branch = main
 [submodule "custom_nodes/ComfyUI-Inference-Core-Nodes"]
 	path = custom_nodes/ComfyUI-Inference-Core-Nodes
 	url = https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes
+	branch = main
 [submodule "custom_nodes/cg-quicknodes"]
 	path = custom_nodes/cg-quicknodes
 	url = https://github.com/chrisgoringe/cg-quicknodes
+	branch = main
 [submodule "custom_nodes/ComfyUI-Inspire-Pack"]
 	path = custom_nodes/ComfyUI-Inspire-Pack
 	url = https://github.com/ltdrdata/ComfyUI-Inspire-Pack
+	branch = main
 [submodule "custom_nodes/masquerade-nodes-comfyui"]
 	path = custom_nodes/masquerade-nodes-comfyui
-	url = https://github.com/BadCafeCode/masquerade-nodes-comfyui.git
+	url = https://github.com/BadCafeCode/masquerade-nodes-comfyui
+	branch = main
 [submodule "custom_nodes/ComfyUI_tinyterraNodes"]
 	path = custom_nodes/ComfyUI_tinyterraNodes
 	url = https://github.com/tinyterra/ComfyUI_tinyterraNodes
+	branch = main
 [submodule "custom_nodes/ComfyUI_Ib_CustomNodes"]
 	path = custom_nodes/ComfyUI_Ib_CustomNodes
 	url = https://github.com/Chaoses-Ib/ComfyUI_Ib_CustomNodes
+	branch = main
 [submodule "custom_nodes/ComfyUi_NNLatentUpscale"]
 	path = custom_nodes/ComfyUi_NNLatentUpscale
 	url = https://github.com/Ttl/ComfyUi_NNLatentUpscale
+	branch = master
 [submodule "custom_nodes/ComfyUI_FaceAnalysis"]
 	path = custom_nodes/ComfyUI_FaceAnalysis
 	url = https://github.com/cubiq/ComfyUI_FaceAnalysis
+	branch = main
 [submodule "custom_nodes/PuLID_ComfyUI"]
 	path = custom_nodes/PuLID_ComfyUI
 	url = https://github.com/cubiq/PuLID_ComfyUI
+	branch = main
 [submodule "custom_nodes/ComfyUI_UltimateSDUpscale"]
 	path = custom_nodes/ComfyUI_UltimateSDUpscale
 	url = https://github.com/ssitu/ComfyUI_UltimateSDUpscale
+	branch = main
 [submodule "custom_nodes/comfyui-tooling-nodes"]
 	path = custom_nodes/comfyui-tooling-nodes
 	url = https://github.com/Acly/comfyui-tooling-nodes
+	branch = main
 [submodule "custom_nodes/comfyui-inpaint-nodes"]
 	path = custom_nodes/comfyui-inpaint-nodes
 	url = https://github.com/Acly/comfyui-inpaint-nodes
+	branch = main
 [submodule "custom_nodes/ComfyUI_MaraScott_Nodes"]
 	path = custom_nodes/ComfyUI_MaraScott_Nodes
 	url = https://github.com/davask/ComfyUI_MaraScott_Nodes
+	branch = main
 [submodule "custom_nodes/ComfyUI-Chibi-Nodes"]
 	path = custom_nodes/ComfyUI-Chibi-Nodes
 	url = https://github.com/chibiace/ComfyUI-Chibi-Nodes/
+	branch = main
 [submodule "custom_nodes/ComfyUI-AutomaticCFG"]
 	path = custom_nodes/ComfyUI-AutomaticCFG
 	url = https://github.com/Extraltodeus/ComfyUI-AutomaticCFG
+	branch = main
 [submodule "custom_nodes/Visage_Pack"]
 	path = custom_nodes/Visage_Pack
-	url = git@github.com:wunderbar-rd/Visage_Pack.git
+	url = https://github.com/wunderbar-rd/Visage_Pack
+	branch = master
 [submodule "custom_nodes/ComfyUI-MeshMesh"]
 	path = custom_nodes/ComfyUI-MeshMesh
 	url = https://github.com/meshmesh-io/ComfyUI-MeshMesh
+	branch = main
 [submodule "custom_nodes/was-node-suite-comfyui"]
 	path = custom_nodes/was-node-suite-comfyui
 	url = https://github.com/WASasquatch/was-node-suite-comfyui
+	branch = main
 [submodule "custom_nodes/ComfyUI-Crystools"]
 	path = custom_nodes/ComfyUI-Crystools
 	url = https://github.com/crystian/ComfyUI-Crystools
+	branch = main
 [submodule "custom_nodes/ComfyUI-IDM-VTON"]
 	path = custom_nodes/ComfyUI-IDM-VTON
 	url = https://github.com/TemryL/ComfyUI-IDM-VTON
+	branch = main
+
