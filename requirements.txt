@@ -27,6 +27,14 @@ torch
 torchaudio
 torchsde
 torchvision
+torchaudio
+einops
+transformers>=4.25.1
+safetensors>=0.4.2
+aiohttp
+pyyaml
+Pillow
+scipy
 tqdm
 
 #non essential dependencies:
@@ -36,3 +44,4 @@ transformers>=4.25.1
 wheel
 # xformers
 yapf
+soundfile
