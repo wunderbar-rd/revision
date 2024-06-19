@@ -100,3 +100,6 @@
 [submodule "custom_nodes/ComfyUI-Crystools"]
 	path = custom_nodes/ComfyUI-Crystools
 	url = https://github.com/crystian/ComfyUI-Crystools
+[submodule "custom_nodes/ComfyUI-IDM-VTON"]
+	path = custom_nodes/ComfyUI-IDM-VTON
+	url = https://github.com/TemryL/ComfyUI-IDM-VTON
